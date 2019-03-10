@@ -12,9 +12,20 @@
         max-width: 100%;
         vertical-align: top;
       }
+
+      img#responsive{
+        display: none;
+      }
+      
+      @media screen and (max-width: 768px){
+        img#responsive{
+          display: block;
+        }
+      }
     </style>
   </head>
   <body>
+    <img id="responsive" src="img/recetario-bimbo.jpg" alt="" />
     <img src="img/nba_mexico1.jpg" alt="" />
     <img src="img/Lineup.jpg" alt="" />
     <img src="img/key_art_buffalo_bills.jpg" alt="" />
